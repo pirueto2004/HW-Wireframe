@@ -1,0 +1,118 @@
+body {
+    margin 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px; 
+    width: 100%;
+    height: 800px;
+    
+}
+
+header, nav {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+main {
+    margin: 10px 0;
+    width: 100%; 
+    height: 55%;
+    clear: all;
+}
+
+section {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    width: 59%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction:row; /* column | row */
+}
+
+section > p {
+    position: absolute;
+    top: 5%;
+}
+
+article {
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    text-align: center;
+    width: 95%;
+    height: 80%;
+    background-color: gray;
+    
+}
+
+article > p {
+    position: relative;
+    top: 5%;
+}
+
+.tagDiv {
+    margin: 10px auto;
+    width: 95%;
+    height: 35%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+
+article > div {
+    position: relative;
+    top: 10%;
+    
+}
+
+
+aside {
+    float: right;
+    margin: 0;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content:center;
+    flex-direction:row; /* column | row */
+    position: relative;
+}
+
+aside > p {
+    position: absolute;
+    top: 5%;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
